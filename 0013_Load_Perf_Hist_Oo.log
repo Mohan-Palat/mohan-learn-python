@@ -1,0 +1,135 @@
+[dsadm@paehowld1601:/usr/local/dstage/INVODS/cyberf/MARKIT]$ ./Load_Perf_Oo.py 3
+
+
+<INI>
+==========================
+2018-03-12 18:23:33.689635
+==========================
+
+
+Number of Performance zip files to be preocessed 3
+
+   Database Connection Information
+
+ Database server        = DB2/AIX64 10.5.5
+ SQL authorization ID   = RSUDB
+ Local database alias   = EDW2
+
+Result for db2 connect =  0
+DB20000I  The SQL command completed successfully.
+Result for db2 truncate stage =  0
+DB20000I  The TERMINATE command completed successfully.
+Result for db2 terminate =  0
+
+
+<BOP>
+==========================
+2018-03-12 18:23:34.995600
+==========================
+
+
+=====================================================================
+001. MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1630656.txt.zip
+=====================================================================
+Unzipped file is /usr/local/dstage/INVODS/WorkFiles/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1630656.txt
+unzip -jo /usr/local/dstage/INVODS/cyberf/MARKIT/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1630656.txt.zip -d /usr/local/dstage/INVODS/WorkFiles/
+Archive:  /usr/local/dstage/INVODS/cyberf/MARKIT/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1630656.txt.zip
+  inflating: /usr/local/dstage/INVODS/WorkFiles/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1630656.txt  
+Result for unzip =  0
+Result for Tail =  0
+Result for >> Load_Perf_Tail.log 0
+Staged file is /usr/local/dstage/INVODS/cyberf/stage/MARKIT/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1630656.txt
+Result for Strip HT =  0
+Sequence/Job Name : MO_INVODS_010105_MARKIT_PERF_NONGIA_STG_NO_TRUNCATE
+List of parameters: -param jpFileName='MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1630656.txt'
+Command: dsjob -authfile /usr/local/dstage/INVODS/batch/credentials.txt -run -jobstatus -warn 1 -param jpFileName='MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1630656.txt' INVODS MO_INVODS_010105_MARKIT_PERF_NONGIA_STG_NO_TRUNCATE
+Waiting for job...
+Finished waiting for job
+Job Status      :  (1)
+
+Status code = 1 
+Result for DataStage Load Stage =  0
+Removing  /usr/local/dstage/INVODS/WorkFiles/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1630656.txt
+Removing  /usr/local/dstage/INVODS/cyberf/stage/MARKIT/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1630656.txt
+
+==========================
+2018-03-12 18:23:47.324391
+==========================
+
+=====================================================================
+002. MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1632303.txt.zip
+=====================================================================
+Unzipped file is /usr/local/dstage/INVODS/WorkFiles/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1632303.txt
+unzip -jo /usr/local/dstage/INVODS/cyberf/MARKIT/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1632303.txt.zip -d /usr/local/dstage/INVODS/WorkFiles/
+Archive:  /usr/local/dstage/INVODS/cyberf/MARKIT/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1632303.txt.zip
+  inflating: /usr/local/dstage/INVODS/WorkFiles/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1632303.txt  
+Result for unzip =  0
+Result for Tail =  0
+Result for >> Load_Perf_Tail.log 0
+Staged file is /usr/local/dstage/INVODS/cyberf/stage/MARKIT/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1632303.txt
+Result for Strip HT =  0
+Sequence/Job Name : MO_INVODS_010105_MARKIT_PERF_NONGIA_STG_NO_TRUNCATE
+List of parameters: -param jpFileName='MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1632303.txt'
+Command: dsjob -authfile /usr/local/dstage/INVODS/batch/credentials.txt -run -jobstatus -warn 1 -param jpFileName='MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1632303.txt' INVODS MO_INVODS_010105_MARKIT_PERF_NONGIA_STG_NO_TRUNCATE
+Waiting for job...
+Finished waiting for job
+Job Status      :  (1)
+
+Status code = 1 
+Result for DataStage Load Stage =  0
+Removing  /usr/local/dstage/INVODS/WorkFiles/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1632303.txt
+Removing  /usr/local/dstage/INVODS/cyberf/stage/MARKIT/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1632303.txt
+
+==========================
+2018-03-12 18:24:01.920926
+==========================
+
+=====================================================================
+003. MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1633808.txt.zip
+=====================================================================
+Unzipped file is /usr/local/dstage/INVODS/WorkFiles/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1633808.txt
+unzip -jo /usr/local/dstage/INVODS/cyberf/MARKIT/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1633808.txt.zip -d /usr/local/dstage/INVODS/WorkFiles/
+Archive:  /usr/local/dstage/INVODS/cyberf/MARKIT/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1633808.txt.zip
+  inflating: /usr/local/dstage/INVODS/WorkFiles/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1633808.txt  
+Result for unzip =  0
+Result for Tail =  0
+Result for >> Load_Perf_Tail.log 0
+Staged file is /usr/local/dstage/INVODS/cyberf/stage/MARKIT/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1633808.txt
+Result for Strip HT =  0
+Sequence/Job Name : MO_INVODS_010105_MARKIT_PERF_NONGIA_STG_NO_TRUNCATE
+List of parameters: -param jpFileName='MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1633808.txt'
+Command: dsjob -authfile /usr/local/dstage/INVODS/batch/credentials.txt -run -jobstatus -warn 1 -param jpFileName='MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1633808.txt' INVODS MO_INVODS_010105_MARKIT_PERF_NONGIA_STG_NO_TRUNCATE
+Waiting for job...
+Finished waiting for job
+Job Status      :  (1)
+
+Status code = 1 
+Result for DataStage Load Stage =  0
+Removing  /usr/local/dstage/INVODS/WorkFiles/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1633808.txt
+Removing  /usr/local/dstage/INVODS/cyberf/stage/MARKIT/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1633808.txt
+
+==========================
+2018-03-12 18:24:14.888290
+==========================
+
+
+============ Trailer Records Log =================
+
+==> /usr/local/dstage/INVODS/WorkFiles/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1630656.txt <==
+TLR|Detail Record Count: 000000000037782
+==> /usr/local/dstage/INVODS/WorkFiles/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1632303.txt <==
+TLR|Detail Record Count: 000000000037739
+==> /usr/local/dstage/INVODS/WorkFiles/MARKIT_TO_IODS_FUND_PERFORMANCE_RETURNS_20180303_1633808.txt <==
+TLR|Detail Record Count: 000000000037795
+
+
+Total Performance Records Received from Markit: 113316 in 3 files
+
+
+<EOP>
+==========================
+2018-03-12 18:24:14.905502
+==========================
+
+
+
